@@ -1,0 +1,9 @@
+Matlab files used for stationary Extreme value analysis
+Codes: gev.m, createIndependentEventGeneric.m, negloglikgev.m,negloglikgpd.m, negloglikgpd2.m, block.m
+
+These codeswere developed to fit extreme value distributions to the datasets using two different methodologies,
+the Block (Annual) Maxima Method (AMM) and the PeakOver Threshold (POT) method (see Coles, 2001 for 
+more information on extreme value techniques).
+
+Created by K. Serafin, Oregon State University, 10/11/2017
+Modified by J. Shope, UC Santa Cruz 2019
