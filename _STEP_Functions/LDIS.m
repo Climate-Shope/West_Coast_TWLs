@@ -2,7 +2,6 @@ function L=LDIS(T,h)
 
 % L = LDIS(T,h)
 % dispersion relationship
-% Li Erikson USGS
 %
 
 
