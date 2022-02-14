@@ -1,6 +1,3 @@
-# West_Coast_TWLs
-
-
 West Coast Total Water Levels Scripts used to develop the data for the publication 
 "Characterizing Storm-Induced Coastal Change Hazards Along the United States West Coast"
 by James B. Shope, Li H. Erikson, Patrick L. Barnard, Curt D. Storlazzi, Katherine Serafin,
@@ -10,7 +7,7 @@ Laura Cagigal, and Peter Ruggiero. 2022
 This readme provides guidance on the included subfolders, their intended use, and the
 order in which to run the scripts to regionally project total water levels (TWLs). 
 
-The intent of these scripts to  provide an overview of the methodology to project
+The intent of these scripts is to  provide an overview of the methodology to project
 extreme total water levels along a coastline. Limited data are provided, and it is assumed
 the user will be able to supplement environmental sensitivity index, topography, tidal, 
 and nearshore wave data that is not hosted here. 
@@ -41,9 +38,9 @@ parameters (such as a dune toe or crest).
 
 Calculating TWLs:
 
-To calculate the TWLs for the provided example, the ser will need to run the codes in the _Template and
+To calculate the TWLs for the provided example, the user will need to run the codes in the _Template and
 TWL_Slope_Temp/Beach_Slope_Scripts folders in the following order. Note, if you have all the requisite data
-to call all of the scripts from start to finish in a batch file, it is not recommended to do so. some of these
+to call all of the scripts from start to finish in a batch file, it is not recommended to do so. Some of these
 processes can take days to weeks to compute on a singular machine. Finally, some optional codes are included that
 are located in TWL_Slope_Temp\Correct_Profiles to provide some morphology specific fixes to common problems with
 automatically calculated runup methods, toe locaitons, and TWL calculations associated with rock bench profiles. 
@@ -124,7 +121,7 @@ TWL_Slope_Temp\Correct_Profiles\Fix_Runup_Method
 ** 
 M5c_TWL_Calculation
 **
-Optional fixe to rocky bench profile TWL calculations if determined necessary for the region
+Optional fixes to rocky bench profile TWL calculations if determined necessary for the region
 TWL_Slope_Temp\Correct_Profiles\Fix_2A_Profiles
 **
 M5d_TWL_Troubleshoot
@@ -199,7 +196,7 @@ The above script sequence assumes that the user already has a series of beach sl
 will calculate the beach slopes from the elevation profiles. In sequence, these would be computed between steps 4 and 5.
 
 Step 1 Navigate to ...TWL_Slope_Temp/Beach_Slope_Scripts 
--These scripts are hosted and calculated externally from the _Templte scripts
+-These scripts are hosted and calculated externally from the _Template scripts
 
 
 
@@ -216,7 +213,7 @@ Get_Major_Slope_Averages
 
 Step 3
 -Redo with an updated iteration and provide a methodology to fill in beach slopes where they cannot be empirically
-calculated from the elevations profiles, such as along sea cliffs. 
+calculated from the elevation profiles, such as along sea cliffs. 
 
 Order
 Get_BeachSlope_Gen_Regional
